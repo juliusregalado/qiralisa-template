@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Acme";
+}
+
+p {
+  font-family: "Lato";
+}
+
+/* --------------------------
+  hero
+ -------------------------- */ 
+
+ img.d-block {
+   margin-top: 10px;
+   width: 100vw;
+   height: 70vh;
+   opacity: .7;
+   position: relative;
+ }
+
+ .hero-content-left {
+   position: absolute;
+   width: 40vw;
+   top: 20%;
+   left: 12%;
+ }
+
+ .hero-content-right {
+   position: absolute;
+   width: 35vw;
+   top: 20%;
+   right: 12%;
+ }
+ 
+ .hero-content-left > h1, 
+ .hero-content-right > h1 {
+   font-size: 3rem;
+ }
+
+ .hero-content-left > p,
+ .hero-content-right > p {
+   font-size: 1.5rem;
+ }
